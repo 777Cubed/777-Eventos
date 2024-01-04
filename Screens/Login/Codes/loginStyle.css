@@ -32,7 +32,16 @@
     margin-top: 40px;
 }
 
-#input {
+#email {
+    width: 475px;
+    height: 45px;
+    padding-top: 2px;
+    border-radius: 8px;
+    border: 1px solid #494949;
+    padding-left: 10px;
+}
+
+#senha {
     width: 475px;
     height: 45px;
     padding-top: 2px;
@@ -149,4 +158,68 @@
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    #email {
+        width: 350px;
+        height: 45px;
+        padding-top: 2px;
+        border-radius: 8px;
+        border: 1px solid #494949;
+        padding-left: 10px;
+    }
+
+    #senha {
+        width: 350px;
+        height: 45px;
+        padding-top: 2px;
+        border-radius: 8px;
+        border: 1px solid #494949;
+        padding-left: 10px;
+    }
+
+    #continuar {
+        width: 365px;
+        height: 48px;
+        background-color: #cccccc;
+        color: #191919;
+        border-radius: 8px;
+        margin-top: 32px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .opção {
+        display: flex;
+        width: 365px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 48px;
+        background-color: #2e2e2e;
+        border: 1px solid #D8D8D8;
+        color: #F5F5F5;
+        border-radius: 8px;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .termos {
+        width: 365px;
+        margin-top: 40px;
+        background-color: #bebebe;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    #texto_termos {
+        color: white;
+        font-size: 12px;
+        font-family: "Open Sans"
+    }
 }
